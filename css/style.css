@@ -1,4 +1,4 @@
-/* ========== Variables ========== */
+/* ==================== Variables ==================== */
 :root {
   --main-color: #0b9586;
   --secondary-color: #ffbb1c;
@@ -7,7 +7,7 @@
   --section-padding: 100px 0px;
 }
 
-/* ========== Global Rules ========== */
+/* ==================== Global Rules ==================== */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -29,8 +29,19 @@ img {
   max-width: 100%;
   display: block;
 }
+button {
+  padding: 0.5rem 1.5rem;
+  border-radius: 30px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
 
-/* ========== Main Compounds ========== */
+/* ==================== Main Compounds ==================== */
 .container {
   padding-left: 15px;
   padding-right: 15px;
@@ -43,7 +54,7 @@ img {
   background-position: center center;
 }
 
-/* ========== Header ========== */
+/* ==================== Header ==================== */
 header {
   background-color: var(--main-color);
   color: #fff;
@@ -97,7 +108,7 @@ header .call-us {
   text-align: end;
 }
 
-/* ========== Home ========== */
+/* ==================== Home ==================== */
 #home {
   position: relative;
   height: 100vh;
@@ -119,13 +130,6 @@ header .call-us {
   font-size: 20px;
   margin-top: 0.75rem;
 }
-#home .contact button {
-  padding: 0.5rem 1.5rem;
-  border-radius: 30px;
-  cursor: pointer;
-  outline: none;
-  border: none;
-}
 #home .contact {
   margin-top: 1.5rem;
 }
@@ -137,11 +141,7 @@ header .call-us {
   background-color: var(--secondary-color);
 }
 
-/* ========== About ========== */
-#about {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
+/* ==================== About ==================== */
 #about .container {
   display: flex;
   flex-direction: column;
@@ -177,4 +177,22 @@ header .call-us {
 #about .img-container .box i {
   font-size: 2rem;
   margin-bottom: 1rem;
+}
+
+/* ==================== Power ====================  */
+#power {
+  background-image: url("../images/8116\ 1.png");
+  color: #fff;
+}
+#power .container {
+  max-width: 518px;
+  margin-left: 1rem;
+}
+#power h3 {
+  font-size: 25px;
+  margin-bottom: 1rem;
+}
+#power button {
+  background-color: var(--secondary-color);
+  margin-top: 0.5rem;
 }
