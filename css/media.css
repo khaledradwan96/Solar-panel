@@ -1,4 +1,4 @@
-/* ========== Media Query (Mobile Screen) ========== */
+/* ==================== Media Query (Mobile Screen) ==================== */
 @media only screen and (max-width: 600px) {
   /* ========== Header ========== */
   header ul {
@@ -17,7 +17,7 @@
   }
 }
 
-/* ========== Media Query (Small Screen) ========== */
+/* ==================== Media Query (Small Screen) ==================== */
 @media only screen and (min-width: 768px) {
   .container {
     width: 750px;
@@ -33,16 +33,21 @@
   #about .img-container .box {
     display: block;
   }
+
+  /* ========== Solar Kits ========== */
+  #solar .box-container {
+    flex-direction: row;
+  }
 }
 
-/* ========== Media Query (Medium Screen) ========== */
+/* ==================== Media Query (Medium Screen) ==================== */
 @media only screen and (min-width: 992px) {
   .container {
     width: 970px;
   }
 }
 
-/* ========== Media Query (Large Screen) ========== */
+/* ==================== Media Query (Large Screen) ==================== */
 @media only screen and (min-width: 1200px) {
   .container {
     width: 1170px;
