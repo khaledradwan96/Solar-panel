@@ -1,0 +1,42 @@
+/* ========== Global Rules ========== */
+/* Small Screen */
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium Screen */
+@media only screen and (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large Screen */
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+/* ========== Media Query ========== */
+/* Mobile Screen */
+@media only screen and (max-width: 600px) {
+  header ul {
+    display: none;
+  }
+  header nav .toggle-bar {
+    display: block;
+  }
+  header .call-us {
+    display: none;
+  }
+}
+/* Small Screen */
+@media only screen and (min-width: 768px) {
+}
+/* Medium Screen */
+@media only screen and (min-width: 992px) {
+}
+/* Large Screen */
+@media only screen and (min-width: 1200px) {
+}
