@@ -1,26 +1,6 @@
-/* ========== Global Rules ========== */
-/* Small Screen */
-@media only screen and (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
-}
-/* Medium Screen */
-@media only screen and (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
-}
-/* Large Screen */
-@media only screen and (min-width: 1200px) {
-  .container {
-    width: 1170px;
-  }
-}
-
-/* ========== Media Query ========== */
-/* Mobile Screen */
+/* ========== Media Query (Mobile Screen) ========== */
 @media only screen and (max-width: 600px) {
+  /* ========== Header ========== */
   header ul {
     display: none;
   }
@@ -31,12 +11,24 @@
     display: none;
   }
 }
-/* Small Screen */
+
+/* ========== Media Query (Small Screen) ========== */
 @media only screen and (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
 }
-/* Medium Screen */
+
+/* ========== Media Query (Medium Screen) ========== */
 @media only screen and (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
 }
-/* Large Screen */
+
+/* ========== Media Query (Large Screen) ========== */
 @media only screen and (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
 }
