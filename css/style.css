@@ -1,6 +1,7 @@
 /* ========== Variables ========== */
 :root {
   --main-color: #0b9586;
+  --secondary-color: #ffbb1c;
   --text-color: #777;
   --transparent-color: rgb(15 116 143 / 70%);
   --section-padding: 100px 0px;
@@ -24,11 +25,18 @@ ul {
 a {
   text-decoration: none;
 }
+
+/* ========== Main Compounds ========== */
 .container {
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+.bg-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 /* ========== Header ========== */
@@ -37,6 +45,11 @@ header {
   color: #fff;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
 }
 header .container {
   display: flex;
@@ -81,3 +94,41 @@ header .call-us {
 }
 
 /* ========== Home ========== */
+#home {
+  position: relative;
+  height: 100vh;
+  background-image: url("../images/solar-panels-meadow\ 1.png");
+}
+#home .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  max-width: 729px;
+  color: #fff;
+}
+#home h1 {
+  font-size: 52px;
+  font-weight: 500;
+}
+#home p {
+  font-size: 20px;
+  margin-top: 0.75rem;
+}
+#home .contact button {
+  padding: 0.5rem 1.5rem;
+  border-radius: 30px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+#home .contact {
+  margin-top: 1.5rem;
+}
+#home .contact button:nth-child(1) {
+  background-color: var(--main-color);
+  color: #fff;
+}
+#home .contact button:nth-child(2) {
+  background-color: var(--secondary-color);
+}
