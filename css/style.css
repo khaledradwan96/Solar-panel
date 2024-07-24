@@ -25,6 +25,10 @@ ul {
 a {
   text-decoration: none;
 }
+img {
+  max-width: 100%;
+  display: block;
+}
 
 /* ========== Main Compounds ========== */
 .container {
@@ -131,4 +135,46 @@ header .call-us {
 }
 #home .contact button:nth-child(2) {
   background-color: var(--secondary-color);
+}
+
+/* ========== About ========== */
+#about {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+#about .container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+#about h2 {
+  font-size: 42px;
+  margin-bottom: 1rem;
+}
+#about .list {
+  font-weight: 500;
+  margin-top: 1rem;
+}
+#about .list span {
+  color: var(--main-color);
+}
+#about .img-container {
+  position: relative;
+  margin: auto;
+}
+#about .img-container img {
+  width: 100%;
+}
+#about .img-container .box {
+  background-color: var(--secondary-color);
+  position: absolute;
+  bottom: 15%;
+  left: -20px;
+  padding: 1rem;
+  border-radius: 8px;
+  display: none;
+}
+#about .img-container .box i {
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }

@@ -10,12 +10,28 @@
   header .call-us {
     display: none;
   }
+
+  /* ========== Home ========== */
+  #home .contact button:nth-child(1) {
+    margin-bottom: 0.5rem;
+  }
 }
 
 /* ========== Media Query (Small Screen) ========== */
 @media only screen and (min-width: 768px) {
   .container {
     width: 750px;
+  }
+
+  /* ========== About ========== */
+  #about .container {
+    flex-direction: row;
+  }
+  #about .container > div {
+    width: 50%;
+  }
+  #about .img-container .box {
+    display: block;
   }
 }
 
