@@ -247,3 +247,22 @@ header .call-us {
     right: -30px;
   }
 }
+
+/* ==================== Repairs ==================== */
+#repairs {
+  background-image: url("../images/8116\ 1\ \(1\).png");
+}
+#repairs .container {
+  max-width: 858px;
+}
+#repairs .content {
+  background-color: rgb(0, 0, 0, 0.57);
+  color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+}
+#repairs .content h3 {
+  font-size: 33px;
+  margin-bottom: 0.5rem;
+}
