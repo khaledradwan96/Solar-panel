@@ -15,6 +15,12 @@
   #home .contact button:nth-child(1) {
     margin-bottom: 0.5rem;
   }
+
+  /* ========== Power ========== */
+  #power .container {
+    background-color: rgb(0, 0, 0, 0.57);
+    margin-left: auto;
+  }
 }
 
 /* ==================== Media Query (Small Screen) ==================== */
@@ -38,6 +44,14 @@
   #solar .box-container {
     flex-direction: row;
   }
+
+  /* ========== Energy ========== */
+  #energy .container {
+    flex-direction: row;
+  }
+  #energy .container > div {
+    width: 50%;
+  }
 }
 
 /* ==================== Media Query (Medium Screen) ==================== */
@@ -45,11 +59,24 @@
   .container {
     width: 970px;
   }
+  /* ========== Energy ========== */
+  #energy .box-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #energy .box-container > div {
+    width: 48%;
+  }
 }
 
 /* ==================== Media Query (Large Screen) ==================== */
 @media only screen and (min-width: 1200px) {
   .container {
     width: 1170px;
+  }
+
+  /* ========== Power ========== */
+  #power .container {
+    margin-left: 20%;
   }
 }
