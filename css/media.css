@@ -52,6 +52,14 @@
   #energy .container > div {
     width: 50%;
   }
+
+  /* ==================== Values ==================== */
+  #values .box-container {
+    flex-direction: row;
+  }
+  #values .box-container > div {
+    width: calc(100% / 3);
+  }
 }
 
 /* ==================== Media Query (Medium Screen) ==================== */
