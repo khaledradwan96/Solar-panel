@@ -1,5 +1,16 @@
+/* ==================== Media Query (Small mobile Screen) ==================== */
+@media only screen and (max-width: 400px) {
+  /* ========== Home ========== */
+  #home .control {
+    display: none;
+  }
+  /* ==================== say-about ==================== */
+  #say-about .card footer {
+    justify-content: center;
+  }
+}
 /* ==================== Media Query (Mobile Screen) ==================== */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 660px) {
   /* ========== Header ========== */
   header ul {
     display: none;
@@ -20,6 +31,8 @@
   #power .container {
     background-color: rgb(0, 0, 0, 0.57);
     margin-left: auto;
+    padding: 1rem;
+    border-radius: 12px;
   }
 }
 
