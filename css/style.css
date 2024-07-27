@@ -438,6 +438,8 @@ header .call-us {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: initial;
+  padding: 0;
 }
 #say-about .card footer .person {
   display: flex;
@@ -459,9 +461,85 @@ header .call-us {
   height: 25px;
   text-align: center;
   display: inline-block;
-  /* padding: 0.5rem; */
   margin-right: 0.5rem;
 }
 #say-about .card footer .control i {
   font-size: 0.75rem;
+}
+
+/* ==================== footer ==================== */
+footer {
+  background-color: #283646;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+footer .content {
+  display: flex;
+  flex-direction: column;
+}
+footer .logo {
+  text-align: center;
+  background-color: #d9e7f7;
+  padding: 0.5rem 2rem;
+  margin-bottom: 1rem;
+}
+footer .logo i {
+  font-size: 2rem;
+  color: rgb(0, 0, 0, 0.06);
+}
+footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 1rem;
+}
+footer ul a {
+  color: #fff;
+}
+/* === form === */
+footer form h5 {
+  color: #fff;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+footer form .control {
+  position: relative;
+}
+footer form input {
+  border: none;
+  outline: none;
+  padding: 1rem;
+  border-radius: 50px;
+  color: white;
+}
+footer form input[type="email"] {
+  background-color: #b3bdc7;
+  width: 100%;
+  min-width: 260px;
+  outline: 1px solid white;
+}
+footer form input[type="submit"] {
+  background-color: var(--secondary-color);
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+}
+footer hr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+footer .copyright li {
+  position: relative;
+}
+footer .copyright li::after {
+  content: "|";
+  position: absolute;
+  right: -10px;
+  color: #92989f;
+}
+footer .copyright a {
+  color: #92989f;
+}
+footer .copyright p {
+  color: #92989f;
 }

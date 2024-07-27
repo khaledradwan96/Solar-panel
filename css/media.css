@@ -60,12 +60,18 @@
   #values .box-container > div {
     width: calc(100% / 3);
   }
-  /* ==================== Values ==================== */
+  /* ==================== say-about ==================== */
   #say-about .container {
     flex-direction: row;
   }
   #say-about .container > div {
     width: 50%;
+  }
+
+  /* ==================== footer ==================== */
+  footer .content {
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
 
@@ -81,6 +87,12 @@
   }
   #energy .box-container > div {
     width: 48%;
+  }
+
+  /* ==================== footer ==================== */
+  footer .copyright {
+    display: flex;
+    justify-content: space-between;
   }
 }
 
