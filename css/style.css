@@ -148,7 +148,7 @@ header .call-us {
   gap: 30px;
 }
 #about h2 {
-  font-size: 42px;
+  font-size: 2.5rem;
   margin-bottom: 1rem;
 }
 #about p {
@@ -191,8 +191,8 @@ header .call-us {
   max-width: 518px;
   margin-left: 1rem;
 }
-#power h3 {
-  font-size: 25px;
+#power h2 {
+  font-size: 2.5rem;
   margin-bottom: 1rem;
 }
 #power button {
@@ -262,8 +262,8 @@ header .call-us {
   border-radius: 8px;
   text-align: center;
 }
-#repairs .content h3 {
-  font-size: 33px;
+#repairs .content h2 {
+  font-size: 2.5rem;
   margin-bottom: 0.5rem;
 }
 
@@ -358,7 +358,7 @@ header .call-us {
   text-align: center;
 }
 #values h2 {
-  font-size: 42px;
+  font-size: 2.5rem;
   margin-bottom: 1rem;
 }
 #values p {
@@ -376,7 +376,7 @@ header .call-us {
   padding: 1rem;
   transition: 0.3s;
   text-align: start;
-  background-color: rgb(255, 187, 28, 0.05);
+  background-color: rgb(60, 171, 144, 0.05);
 }
 #values .box:hover {
   transform: translateY(-10px);
@@ -389,4 +389,79 @@ header .call-us {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
   font-size: 20px;
+}
+
+/* ==================== say-about ==================== */
+#say-about .container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#say-about .about i {
+  font-size: 3rem;
+  color: var(--main-color);
+}
+#say-about .about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+#say-about .card {
+  background-color: rgb(60, 171, 144, 0.05);
+  border: 1px solid var(--main-color);
+  border-radius: 12px;
+  padding: 1rem;
+  position: relative;
+}
+#say-about .card h5 {
+  color: var(--main-color);
+  margin-bottom: 1rem;
+  position: relative;
+}
+#say-about .card .circles {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#say-about .card .circles span {
+  background-color: #d9d9d9;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#say-about .card .circles span.active {
+  background-color: #6b6b6b;
+}
+#say-about .card footer {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#say-about .card footer .person {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#say-about .card footer .person img {
+  width: 50px;
+  margin-right: 5px;
+}
+#say-about .card footer .person p {
+  font-size: 10px;
+}
+#say-about .card footer .control span {
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  display: inline-block;
+  /* padding: 0.5rem; */
+  margin-right: 0.5rem;
+}
+#say-about .card footer .control i {
+  font-size: 0.75rem;
 }

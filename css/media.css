@@ -60,6 +60,13 @@
   #values .box-container > div {
     width: calc(100% / 3);
   }
+  /* ==================== Values ==================== */
+  #say-about .container {
+    flex-direction: row;
+  }
+  #say-about .container > div {
+    width: 50%;
+  }
 }
 
 /* ==================== Media Query (Medium Screen) ==================== */
