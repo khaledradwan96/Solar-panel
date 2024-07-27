@@ -2,9 +2,6 @@
 :root {
   --main-color: #0b9586;
   --secondary-color: #ffbb1c;
-  --text-color: #777;
-  --transparent-color: rgb(15 116 143 / 70%);
-  --section-padding: 100px 0px;
 }
 
 /* ==================== Global Rules ==================== */
